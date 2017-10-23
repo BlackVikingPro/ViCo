@@ -1,8 +1,7 @@
 <?php
-error_reporting(E_ALL);
 ini_set('display_errors', 'On');
 
-include 'counter.php';
+include '../counter.php';
 
 $vico = new ViCo();
 $vico->ViewCounter('localhost', 9000);
